@@ -93,7 +93,7 @@ entradaDeDados.question(`digite o nome do aluno:`, function (nome) {
                         console.log(`ERRO: é obrigatório o preenchimento de todos os dados !!!`);
                     }
                     
-                    else if(nota1 >"100" || nota2 >"100" || nota3 >"100" || nota4 >"100");{
+                    else if(nota1 >"100" || nota2 >"100" || nota3 >"100" || nota4 >"100" ||nota1 <"0" || nota2 <"0" || nota3 <"0" || nota4 <"0");{
                     console.log(`ERRO: insira um valor válido abaixo de 100`)
 
                     else if(nota1 || ){
